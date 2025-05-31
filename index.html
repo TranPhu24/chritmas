@@ -24,11 +24,12 @@
       z-index: 1;
     }
     .christmas-text {
-      font-family: 'Arial', sans-serif;
-      font-weight: bold;
-      text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.6);
-      position: relative;
+    font-family: 'Mountains of Christmas', cursive; 
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.6);
+    position: relative;
     }
+
     .christmas-text::after {
       content: '✨';
       position: absolute;
@@ -138,7 +139,6 @@
   </div>
 
   <script>
-    // Loading screen ẩn sau khi tải xong
     window.addEventListener('load', () => {
       document.getElementById('loadingScreen').style.display = 'none';
     });
@@ -253,7 +253,7 @@
       for (let i = 0; i < 10; i++) {
         const gift = document.createElement('div');
         gift.classList.add('gift');
-        gift.textContent = '🎁';
+        gift.textContent = '⭐';
         gift.style.left = Math.random() * 100 + 'vw';
         gift.style.fontSize = (Math.random() * 1.5 + 1) + 'rem';
         document.body.appendChild(gift);
