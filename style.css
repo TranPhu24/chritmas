@@ -165,6 +165,7 @@
       left: 50%;
       transform: translateX(-50%);
       font-size: 1.2rem;
+      
     }
     /* Responsive styles for mobile */
     @media (max-width: 640px) {
